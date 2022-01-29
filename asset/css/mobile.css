@@ -423,7 +423,9 @@
 
 @media all and (max-width: 826px) {
     .home-section .content-container img {
-        display: none;
+       /* display: none; */
+        width: 200px;
+        transform: translateX(-150px) translateY(170px);
     };
 }
 
