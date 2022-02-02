@@ -18,6 +18,19 @@
         justify-content: center;
         flex-direction: column;
     }
+
+    .youtub #player
+    {
+        width: auto;
+        height: auto;
+        position: relative;
+        right: 250px;
+    }
+    .youtub h1
+    {
+        display: none;
+    }
+
     .about img
     {
       position: absolute;
@@ -425,7 +438,13 @@
     .home-section .content-container img {
        /* display: none; */
         width: 200px;
-        transform: translateX(-150px) translateY(170px);
+        /* transform: translateX(-150px) translateY(170px); */
+        margin-bottom: 400px;
+        transform: translateX(-150px)
+    }
+    .home-section
+    {
+        height: 80vh;
     };
 }
 
